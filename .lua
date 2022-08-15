@@ -26,9 +26,9 @@ MainSection:AddButton({
 })
 
 MainSection:AddButton({
-	Name = "Doors",
+	Name = "Tapping Legends X",
 	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/DSA5ZbX1", true))()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/BRfHY58c", true))()
   	end    
 })
 
