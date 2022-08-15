@@ -25,6 +25,13 @@ MainSection:AddButton({
   	end    
 })
 
+MainSection:AddButton({
+	Name = "Block Tycoon",
+	Callback = function()
+      		game:GetService("ReplicatedStorage").ShopE:FireServer(1, {"DiamondPick", 0/0})
+  	end    
+})
+
 MainSection:AddSlider({
 	Name = "Speed Change",
 	Min = 16,
