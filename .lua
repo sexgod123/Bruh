@@ -26,9 +26,9 @@ MainSection:AddButton({
 })
 
 MainSection:AddButton({
-	Name = "Tapping Legends X",
+	Name = "DBOG",
 	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/BRfHY58c", true))()
+      		loadstring(game:HttpGet('https://github.com/LeanNBud/LegacyEngine/raw/main/DBOG/loader', true))()
   	end    
 })
 
